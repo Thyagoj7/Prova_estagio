@@ -34,6 +34,24 @@
                 
                  margin-left: 36%;
                 }
+                
+                #novo{
+                    
+                font-size: 1.2em;
+                background: #59429d;
+                border: 0;
+                margin-bottom: 1em;
+                color: #ffffff;
+                padding: 0.2em 0.6em;
+                box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+                text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+                /*position: absolute;*/
+                top: 90%;
+                /*left: 50%;*/
+                margin-right: -50%;
+                transform: translate(-50%, -50%)
+                }
+                
         </style>
         <title>JSP Page</title>
     </head>
@@ -125,7 +143,7 @@
             
         %>
     
-        <a href="inserir.jsp">NOVO</a>
+        <a id="novo" href="inserir.jsp">NOVO</a>
     
     </body>
 </html>

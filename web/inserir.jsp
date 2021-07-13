@@ -8,8 +8,7 @@
     <body>
        
     <form action="executa_inserir.jsp" method="post">
-        <!--<label>Codigo:</label><br/>
-        <input type="text" name="codigo"/><br/> -->
+        
         
         <label>Nome:</label><br/>
         <input type="text" name="nome"/><br/>
